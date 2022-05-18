@@ -1,0 +1,25 @@
+{
+   "cliente": {
+      "id": 1,
+      cpf: 111,
+      nome: …
+   },
+   itens_pedido: [
+      { 
+         produto: {
+            id: 1,
+            nome: ‘pastel’,
+            preco: 7
+         } ,
+         quantidade: 1   
+      }, 
+      { 
+         produto: {
+            id: 2,
+            nome: ‘cafe’,
+            preco: 4
+         } ,
+         quantidade: 1   
+      }
+   ]   
+}
