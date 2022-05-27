@@ -31,7 +31,7 @@ exports.inserir = async (req, res) => {
     
     try{ 
         const produtoInserido = await produtoNegocio.inserir(produto);
-        res.status(201).json(produto);
+        res.status(201).json(produtoInserido);
     }
     catch(err) {
         if(err.status) {
